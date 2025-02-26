@@ -1,0 +1,21 @@
+vamos criar um projeto de python simples, onde vamos cadastrar um cliente e depois vamos poder transferir saldo entre os clientes cadastrados. 
+para isso vamos utilizar o banco de dados mongoDB. O mongoDB não será instalado no meu computador vamos utilizar o docker para executar o mongoDB
+
+vamos adaptar agora para uma pagina em javascript, onde eu tenho pagina inicial onde eu escolho se querer cadastrar um cliente ou fazer uma transferencia, 
+na pagian de cadastro, ele terá opcoes de pedir o nome, saldo e cpf. na pagina de transferencia ele ira pedir o nome e cpf de origem e nome e cpf 
+de destino, se o saldo de origem for igual ou maior que o saldo disponivel a transferencia sera realizada
+
+transferencia_facil/
+│
+├── backend/
+│   └── app.py
+│
+├── frontend/
+│   ├── paginas/
+│   │   └── index.html
+│   ├── estilos/
+│   │   └── style.css
+│   └── scripts/
+│       └── app.js
+
+vamos alterar, para que tenha um terceiro botao chamado exibir todos os clientes cadastrados e um quarto botao agora para limpar todos os clientes cadastrados.
