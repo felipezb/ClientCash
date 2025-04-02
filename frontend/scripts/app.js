@@ -49,6 +49,7 @@ async function cadastrarCliente() {
     });
     const result = await response.json();
     alert(result.message);
+    window.location.href = '/'; // Redireciona para a página inicial
 }
 
 async function fazerTransferencia() {
@@ -66,6 +67,7 @@ async function fazerTransferencia() {
     });
     const result = await response.json();
     alert(result.message);
+    window.location.href = '/'; // Redireciona para a página inicial
 }
 
 async function exibirClientes() {
@@ -101,5 +103,6 @@ async function limparClientes() {
     });
     const result = await response.json();
     alert(result.message);
+    window.location.href = '/'; // Redireciona para a página inicial
 }
 
